@@ -1,0 +1,42 @@
+# Default configuration for MedDRA-Coding-AI
+meddra_data_dir: ./dict/Meddra
+indexes_dir: ./indexes
+
+embedding:
+  model_name: BAAI/bge-m3
+  batch_size: 64
+  normalize: true
+  device: cpu
+
+retrieval:
+  top_k: 5
+  score_threshold: 0.35
+
+output:
+  include_hierarchy: true
+
+vector_store:
+  backend: chroma  # options: faiss, chroma
+  chroma:
+    collection_prefix: meddra
+    device: cpu
+    add_batch_size: 2048
+
+llm:
+  backend: openrouter  # options: "openrouter", "openai", "ollama"
+  openai:
+    model: gpt-4o-mini
+    temperature: 0.0
+  ollama:
+    model: mistral
+    options:
+      temperature: 0.0
+  openrouter:
+    model: meta-llama/llama-3.1-8b-instruct
+    temperature: 0.0
+    max_tokens: 512
+    url: https://openrouter.ai/api/v1/chat/completions
+    api_key: ""  # optional; leave blank to use OPENROUTER_API_KEY env var
+    headers:
+      HTTP-Referer: https://your-app.example.com
+      X-Title: MedDRA-Coding-AI
