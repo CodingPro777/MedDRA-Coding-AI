@@ -10,6 +10,7 @@
 
 MedDRA-Coding-AI 是一款面向药物警戒（Pharmacovigilance）的开源自动编码工具，利用检索增强生成（Retrieval-Augmented Generation, RAG）技术，将安全性叙述快速映射到 MedDRA 术语。系统支持本地/云端大模型（OpenAI、OpenRouter、Ollama），并提供 Streamlit Web 界面、CLI 工具及 Colab Notebook，适合药物不良事件分类与自动化编码场景。
 
+
 ## 功能亮点
 - 解析 MedDRA ASCII 数据，构建完整的层级数据框架。
 - 将 LLT 扩展为包含 PT → HLT → HLGT → SOC 全路径的层级文档，再做句向量编码，增强召回质量。
