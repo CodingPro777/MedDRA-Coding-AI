@@ -1,5 +1,7 @@
 # MedDRA-Coding-AI（中文介绍）
 
+中文 | [English](README.md)
+
 <p align="center">
   <img src="images/Screenshot 2025-10-10 at 11.25.04 PM.png" alt="对话界面" width="280" />
   <img src="images/Screenshot 2025-10-10 at 11.27.31 PM.png" alt="向量召回" width="280" />
@@ -49,6 +51,5 @@ OPENROUTER_API_KEY=sk-...
 - 支持 WHODrug 药品词典解析与编码，与 MedDRA 结果联动。
 - 训练面向不良事件叙述的领域专用句向量模型，提升复杂描述的匹配能力。
 - 构建自动化评测基准（召回率、Top-K 精度、人工复核流程）。
-- 提供更多 Notebook/脚本，方便在 Colab 或云端批量生成索引。
 
 欢迎贡献代码或提交 Issue，共同完善药物警戒自动编码生态！

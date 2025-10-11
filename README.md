@@ -1,5 +1,7 @@
 # MedDRA-Coding-AI
 
+English | [中文](README_zh.md)
+
 <p align="center">
   <img src="images/Screenshot 2025-10-10 at 11.25.04 PM.png" alt="MedDRA RAG chat" width="280" />
   <img src="images/Screenshot 2025-10-10 at 11.27.31 PM.png" alt="Vector search sidebar" width="280" />
@@ -124,7 +126,6 @@ print(response.best_match, response.hierarchy)
 - Add WHODrug coding support (parsing B3 datasets, building multilingual vector stores, harmonising with MedDRA results).
 - Train domain-tuned embedding and reranking models so challenging narratives.
 - Provide model evaluation harnesses covering recall@k and human-in-the-loop review workflows.
-- Package Colab notebooks for large-scale index builds (already available under `notebooks/`).
 
 Looking for contributors! See `README_zh.md` for a Chinese overview.
 
