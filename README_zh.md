@@ -1,9 +1,9 @@
 # MedDRA-Coding-AI（中文介绍）
 
 <p align="center">
-  <img src="../images/Screenshot%202025-10-10%20at%2011.25.04%E2%80%AFPM.png" alt="对话界面" width="280" />
-  <img src="../images/Screenshot%202025-10-10%20at%2011.27.31%E2%80%AFPM.png" alt="向量召回" width="280" />
-  <img src="../images/Screenshot%202025-10-10%20at%2011.30.01%E2%80%AFPM.png" alt="索引构建" width="280" />
+  <img src="images/Screenshot 2025-10-10 at 11.25.04 PM.png" alt="对话界面" width="280" />
+  <img src="images/Screenshot 2025-10-10 at 11.27.31 PM.png" alt="向量召回" width="280" />
+  <img src="images/Screenshot 2025-10-10 at 11.30.01 PM.png" alt="索引构建" width="280" />
 </p>
 
 MedDRA-Coding-AI 是一款面向药物警戒（Pharmacovigilance）的开源自动编码工具，利用检索增强生成（Retrieval-Augmented Generation, RAG）技术，将安全性叙述快速映射到 MedDRA 术语。系统支持本地/云端大模型（OpenAI、OpenRouter、Ollama），并提供 Streamlit Web 界面、CLI 工具及 Colab Notebook，适合药物不良事件分类与自动化编码场景。

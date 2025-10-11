@@ -1,9 +1,9 @@
 # MedDRA-Coding-AI
 
 <p align="center">
-  <img src="../images/Screenshot%202025-10-10%20at%2011.25.04%E2%80%AFPM.png" alt="MedDRA RAG chat" width="280" />
-  <img src="../images/Screenshot%202025-10-10%20at%2011.27.31%E2%80%AFPM.png" alt="Vector search sidebar" width="280" />
-  <img src="../images/Screenshot%202025-10-10%20at%2011.30.01%E2%80%AFPM.png" alt="Index builder" width="280" />
+  <img src="images/Screenshot 2025-10-10 at 11.25.04 PM.png" alt="MedDRA RAG chat" width="280" />
+  <img src="images/Screenshot 2025-10-10 at 11.27.31 PM.png" alt="Vector search sidebar" width="280" />
+  <img src="images/Screenshot 2025-10-10 at 11.30.01 PM.png" alt="Index builder" width="280" />
 </p>
 
 MedDRA-Coding-AI is an open-source pharmacovigilance coding platform that automates MedDRA coding workflows with Retrieval-Augmented Generation (RAG). The assistant parses MedDRA ASCII dictionaries, builds semantic vector indexes, and offers a Streamlit UI that combines fast vector search with LLM reasoning across OpenAI, OpenRouter, or Ollama backends. Keywords: MedDRA coding automation, pharmacovigilance AI, RAG for safety narratives, adverse event classification, WHODrug roadmap.
