@@ -122,18 +122,11 @@ print(response.best_match, response.hierarchy)
 ## Roadmap & Ideas
 
 - Add WHODrug coding support (parsing B3 datasets, building multilingual vector stores, harmonising with MedDRA results).
-- Train domain-tuned embedding and reranking models so challenging narratives (e.g. “proliferative foci in the upper lobe of the left lung”) map to the correct PT/LLT such as “Pulmonary imaging procedure abnormal”.
+- Train domain-tuned embedding and reranking models so challenging narratives.
 - Provide model evaluation harnesses covering recall@k and human-in-the-loop review workflows.
 - Package Colab notebooks for large-scale index builds (already available under `notebooks/`).
 
 Looking for contributors! See `README_zh.md` for a Chinese overview.
-
-## Notes
-- Embedding downloads happen on first run; ensure sufficient disk space and network access.
-- The first retrieval per session will load models/indexes into memory; subsequent calls are cached.
-- Each document stored in the vector index corresponds to one LLT with its PT/HLT/HLGT/SOC context, enabling richer semantic search.
-- Hierarchy resolution prefers the `primary SOC` mapping; if unavailable, it falls back to the first hierarchy entry.
-- To support additional MedDRA languages/versions, drop the ASCII bundle into `dict/Meddra/<language_version>/` and rebuild indexes.
 
 ## License
 This project depends on MedDRA data files, which require appropriate licensing from the MedDRA MSSO. Ensure compliance before distributing dictionaries or embeddings derived from them.

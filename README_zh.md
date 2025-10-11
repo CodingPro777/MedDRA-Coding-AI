@@ -47,7 +47,7 @@ OPENROUTER_API_KEY=sk-...
 
 ## Roadmap（规划）
 - 支持 WHODrug 药品词典解析与编码，与 MedDRA 结果联动。
-- 训练面向不良事件叙述的领域专用句向量模型，提升复杂描述（如 “proliferative foci in the upper lobe of the left lung”）与正确 PT/LLT（如 “Pulmonary imaging procedure abnormal”）的匹配能力。
+- 训练面向不良事件叙述的领域专用句向量模型，提升复杂描述的匹配能力。
 - 构建自动化评测基准（召回率、Top-K 精度、人工复核流程）。
 - 提供更多 Notebook/脚本，方便在 Colab 或云端批量生成索引。
 
